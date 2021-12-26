@@ -3,7 +3,7 @@
   <head>
      
     <meta charset="UTF-8">
-    <title>newpapername - Hexo</title>
+    <title>没有标题 - Hexo</title>
     <link rel="shortcut icon" href="/static/img/icon.png">
     <link rel="icon" href="/static/img/icon.png" sizes="192x192"/>
     
@@ -15,7 +15,7 @@
 
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
     <meta property="og:site_name" content="Hexo">
-    <meta property="og:title" content="newpapername"/>
+    <meta property="og:title" content=""/>
     <style>body:before{ content: ''; background-image: url('./1.jpg') }</style>
 <meta name="generator" content="Hexo 5.4.0"></head>
 
@@ -51,16 +51,23 @@
     <main>
     <div class="wrap min">
         <section class="post-title">
-            <h2>newpapername</h2>
+            <h2>没有标题的文章</h2>
             <div class="post-meta">
-                <time class="date">2021.12.23</time>
+                <time class="date">2021.12.26</time>
             
             </div>
         </section>
         <article class="post-content">
         
-            <p>13321</p>
+            <h3 id="1-查看所有端口"><a href="#1-查看所有端口" class="headerlink" title="1.查看所有端口"></a>1.查看所有端口</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -aon</span><br></pre></td></tr></table></figure>
 
+<h3 id="2-查看指定端口号占用"><a href="#2-查看指定端口号占用" class="headerlink" title="2.查看指定端口号占用"></a>2.查看指定端口号占用</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -aon|findstr 端口号</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-查询PID对应的进行进程"><a href="#3-查询PID对应的进行进程" class="headerlink" title="3.查询PID对应的进行进程"></a>3.查询PID对应的进行进程</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tasklist // 列出所有启动程序的PID</span><br><span class="line">// 通过pid查看程序名</span><br><span class="line">tasklist|findstr PID</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-杀进程"><a href="#4-杀进程" class="headerlink" title="4.杀进程"></a>4.杀进程</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">taskkill /f /t /im &quot;pid或者进程名称&quot;</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-再次查看对应的程序是否已被终止"><a href="#5-再次查看对应的程序是否已被终止" class="headerlink" title="5.再次查看对应的程序是否已被终止"></a>5.再次查看对应的程序是否已被终止</h3>
         </article>
         <section class="post-near">
             <ul>
@@ -68,7 +75,7 @@
                     <li>上一篇: 看完啦 (つд⊂)</li>
                 
                 
-                    <li>下一篇: <a href="/2021/12/23/hello-world/">Hello World</a></li>
+                    <li>下一篇: <a href="/2021/12/26/vue/"></a></li>
                 
             </ul>
         </section>
@@ -98,7 +105,7 @@
             <div class="row">
                 <div class="col-m-4">
                     <h3 class="title-recent">最新文章：</h3>
-                    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2021/12/23/newpapername/">newpapername</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/12/23/hello-world/">Hello World</a></li></ul>
+                    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2021/12/26/%E6%9F%A5%E7%9C%8B%E7%AB%AF%E5%8F%A3%EF%BC%8C%E6%9D%80%E8%BF%9B%E7%A8%8B/">查看端口，杀进程</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/12/26/vue/">vue</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/12/23/hello-world/">Hello World</a></li></ul>
                 </div>
                 <div class="col-m-4">
                     <h3 class="title-date">时光机：</h3>
